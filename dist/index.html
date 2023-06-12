@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BattleShip Game</title>
+  </head>
+  <body>
+    <div class="select-position">
+      <h2>Welcome</h2>
+      <h3>Place your Ships</h3>
+      <p>Switch to:</p>
+      <button class="btn flip">Horizontal</button>
+      <div class="place-grid"></div>
+    </div>
+
+    <h1>BATTELSHIP</h1>
+
+    <div class="content">
+      <div class="player-grid">
+        <div class="p-grid"></div>
+      </div>
+      <div class="npc-grid">
+        <div class="n-grid"></div>
+      </div>
+    </div>
+    <div class="game-over">
+      <p class="winner"></p>
+      <button class="btn reset">Reset</button>
+    </div>
+    <script src="/dist/main.js"></script>
+  </body>
+</html>
